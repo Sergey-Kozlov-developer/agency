@@ -10,6 +10,9 @@
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
 }
+.main {
+  background-color: var(--main-color);
+}
 
 .btn {
   @include animatebtn(1.05, 0.95);
