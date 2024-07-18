@@ -1,0 +1,32 @@
+@import "./../mixins/effects";
+
+.header {
+  padding-top: 20px;
+  background-color: var(--bg-head-color);
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ul {
+    list-style-type: none;
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 40px;
+      a {
+        color: var(--light-color);
+      }
+    }
+    /* Убираем маркеры */
+  }
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
