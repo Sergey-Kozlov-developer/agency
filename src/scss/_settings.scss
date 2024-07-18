@@ -13,14 +13,16 @@
 
 .btn {
   @include animatebtn(1.05, 0.95);
-  border: 1px solid wheat;
-  background: var(--bg-head-color);
-  color: var(--light-color);
+
+  border: 1px solid var(--border-color);
   padding: 12px 32px;
-  text-transform: uppercase;
   font-weight: 900;
   font-size: 14px;
+  text-transform: uppercase;
+  color: var(--light-color);
+  background: var(--bg-head-color);
 }
+
 .btn-orange {
   background-color: var(--accent-color);
 }
