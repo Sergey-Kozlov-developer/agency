@@ -5,6 +5,8 @@
 @import "mixins";
 @import "fonts";
 @import "settings";
+@import "./function/others";
+@import "./function/convert";
 
 // подключения компонентов страницы
 @import "./components/header";

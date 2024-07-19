@@ -1,38 +1,38 @@
 @import "./../mixins/effects";
 
 .header {
-  padding-top: 20px;
+	padding-top: 20px;
 
-  // height: 100vh;
-  background-color: var(--bg-head-color);
+	// height: 100vh;
+	background-color: $bg-head-color;
 }
 
 .nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 
-  ul {
-    list-style-type: none;
+	ul {
+		list-style-type: none;
 
-    li {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 40px;
+		li {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 40px;
 
-      a {
-        color: var(--light-color);
-      }
-    }
+			a {
+				color: $light-color;
+			}
+		}
 
-    /* Убираем маркеры */
-  }
+		/* Убираем маркеры */
+	}
 }
 
 .nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
 }

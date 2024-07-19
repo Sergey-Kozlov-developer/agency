@@ -1,18 +1,39 @@
 // если вы хотите использовать sass-переменные - удалите root
 // colors
-:root {
-  // base
-  --font-family: "Epilogue-Regular", sans-serif;
-  --content-width: 1170px;
-  --container-offset: 15px;
-  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
-  // colors
-  --light-color: #fff;
-  --accent-color: #ef6d58;
-  --bg-head-color: #210c38;
-  --text-light-gray-color: rgba(255, 255, 255, 0.64);
-  --border-color: #f5deb3;
-  --main-color: #f5ded1;
-  --divider-color: #f3d1bf;
-}
+// base
+$font-family: "Epilogue-Regular", sans-serif;
+$content-width: 1170px;
+$container-offset: 15px;
+$container-width: calc($content-width + $container-offset * 2);
+
+// colors
+$light-color: #fff;
+$accent-color: #ef6d58;
+$bg-head-color: #210c38;
+$text-light-gray-color: rgba(255, 255, 255, 0.64);
+$border-color: #f5deb3;
+$main-color: #f5ded1;
+$divider-color: #f3d1bf;
+
+// Размер текста по-умолчанию
+$defaultTextSize: 16px;
+
+// Размеры полотна макета
+$layoutWidth: 1536px;
+$layoutMinWidth: 320px;
+
+// Ширина ограничивающего контейнера (0 = нет ограничения)
+$container: 1150px;
+
+// Включить адаптив без брейк-поинтов:
+// true = да,
+// false = нет
+$responsiveType: true;
+
+// Общий отступ у контейнера
+// (30 = по 15px слева и справа, 0 = нет отступа)
+$containerPadding: 30;
+
+// Ширина контейнера с отступами
+$containerWidth: $container + $containerPadding;

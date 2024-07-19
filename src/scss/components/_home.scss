@@ -1,78 +1,78 @@
 .home {
-  margin-top: 118px;
+	margin-top: 118px;
 }
 
 .home-section {
-  @include flex-all-sb;
+	@include flex-all-sb;
 }
 
 .home-left {
-  position: relative;
+	position: relative;
 }
 
 .studio-name {
-  font-size: 16px;
-  color: var(--accent-color);
+	font-size: 16px;
+	color: $accent-color;
 }
 
 .title {
-  width: 575px;
-  font-weight: 800;
+	width: 575px;
+	font-weight: 800;
 
-  /* H1 */
-  font-size: 72px;
-  line-height: 80px;
-  letter-spacing: -2px;
-  text-align: left;
-  color: var(--light-color);
+	/* H1 */
+	font-size: rem(72px);
+	line-height: 80px;
+	letter-spacing: -2px;
+	text-align: left;
+	color: $light-color;
 }
 
 .text {
-  width: 575px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 32px;
-  letter-spacing: 0;
-  text-align: left;
+	width: 575px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+	letter-spacing: 0;
+	text-align: left;
 
-  /* Text */
+	/* Text */
 
-  color: var(--text-light-gray-color);
+	color: $text-light-gray-color;
 }
 
 .home-button {
-  @include flex-all-left;
+	@include flex-all-left;
 
-  gap: 20px;
+	gap: 20px;
 
-  // text-transform: uppercase;
+	// text-transform: uppercase;
 }
 
 .home-bottom {
-  margin-top: 40px;
+	margin-top: 40px;
 
-  @include flex-all-left;
+	@include flex-all-left;
 
-  gap: 20px;
+	gap: 20px;
 }
 
 .home-bottom_text {
 }
 
 .text-manager {
-  font-weight: 400;
-  font-size: 16px;
-  color: var(--text-light-gray-color);
+	font-weight: 400;
+	font-size: rem(16px);
+	color: $text-light-gray-color;
 }
 
 .text-company {
-  font-weight: 400;
-  font-size: 16px;
-  color: var(--light-color);
+	font-weight: 400;
+	font-size: 16px;
+	color: $light-color;
 }
 
 .home-right {
-  width: 575px;
+	width: 575px;
 }
 
 .img-yellow {
