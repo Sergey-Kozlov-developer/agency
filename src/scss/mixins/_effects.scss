@@ -1,18 +1,18 @@
 // Анимирование кнопки
 @mixin animatebtn($smax: 1.05, $smin: 0.95) {
-  transform-origin: center center;
-  transition: all ease-out 255ms;
+	transform-origin: center center;
+	transition: all ease-out 255ms;
 
-  &:hover {
-    transform: scale($smax);
-  }
+	&:hover {
+		transform: scale($smax);
+	}
 
-  &:focus {
-    outline: none;
-    transform: scale($smax) translateY(-5%);
-  }
+	&:focus {
+		outline: none;
+		transform: scale($smax) translateY(-5%);
+	}
 
-  &:active {
-    transform: scale($smin);
-  }
+	&:active {
+		transform: scale($smin);
+	}
 }

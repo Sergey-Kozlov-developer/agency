@@ -1,3 +1,5 @@
+@import "./vars";
+
 *,
 *::before,
 *::after {
@@ -15,6 +17,15 @@
 	background-color: $main-color;
 }
 
+.title-red {
+	font-family: $font-family;
+	font-weight: 400;
+	letter-spacing: 3px;
+	text-align: left;
+	text-transform: uppercase;
+	color: $accent-color;
+}
+
 .btn {
 	@include animatebtn(1.05, 0.95);
 
@@ -29,6 +40,11 @@
 
 .btn-orange {
 	background-color: $accent-color;
+}
+
+.btn-white {
+	color: $btn-darck-text-color;
+	background-color: $light-color;
 }
 
 img {

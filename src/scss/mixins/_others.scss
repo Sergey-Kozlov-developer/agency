@@ -1,5 +1,5 @@
 // Цвета фона и текста
 @mixin colors($tc: black, $bgc: white) {
-  color: $tc;
-  background-color: $bgc;
+	color: $tc;
+	background-color: $bgc;
 }

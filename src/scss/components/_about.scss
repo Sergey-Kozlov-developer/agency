@@ -1,0 +1,51 @@
+.about-image {
+	width: 566px;
+}
+
+.about-realisation {
+	margin-top: 160px;
+}
+
+.table {
+	@include flex-all-sb;
+
+	color: $text-dark;
+
+	&_title {
+		font-weight: 800;
+
+		/* 42% */
+		font-size: rem(40px);
+	}
+
+	&_text {
+		font-weight: 400;
+		font-size: rem(20px);
+	}
+}
+
+.table-left {
+	border: 1px solid $table-border-color;
+	border-radius: 6px 0 0 6px;
+	padding-left: rem(40px);
+
+	/* Rectangle */
+	// position: absolute;
+	width: rem(391px);
+	height: rem(176px);
+}
+
+.table-center {
+	border: 1px solid $table-border-color;
+	padding-left: rem(40px);
+	width: rem(391px);
+	height: rem(176px);
+}
+
+.table-right {
+	border: 1px solid $table-border-color;
+	border-radius: 6px 0 0 6px;
+	padding-left: rem(40px);
+	width: rem(391px);
+	height: rem(176px);
+}
