@@ -48,6 +48,17 @@
 		letter-spacing: 0;
 	}
 
+	&_portfolio {
+		// width: 329px;
+		font-weight: 800;
+
+		/* H2 */
+		font-size: rem(56px);
+		line-height: 48px;
+		letter-spacing: 0;
+		color: $light-color;
+	}
+
 	&_service {
 		/* Text_Big */
 		font-size: rem(20px);

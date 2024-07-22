@@ -19,8 +19,6 @@
 }
 
 .text-title {
-	display: flex;
-	align-items: center;
-	justify-content: start;
+	@include flex-all-left;
 	text-align: left;
 }

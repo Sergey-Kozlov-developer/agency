@@ -1,7 +1,5 @@
 .manager {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	@include flex-all-sb;
 	gap: 20px;
 }
 
@@ -14,6 +12,7 @@
 	place-items: center center;
 	grid-template-columns: repeat(3, 1fr);
 	margin: 0 auto;
+	padding-bottom: 110px;
 
 	// height: 200px;
 }
