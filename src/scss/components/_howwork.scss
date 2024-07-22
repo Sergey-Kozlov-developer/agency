@@ -1,0 +1,22 @@
+.work-text {
+	display: flex;
+	flex-direction: column;
+	margin-top: 120px;
+	width: 444px;
+	gap: 40px;
+}
+
+.work-title {
+	margin: 0;
+	padding-right: 64px;
+	width: auto;
+	font-size: rem(72);
+	color: $text-dark;
+}
+
+.text-title {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	text-align: left;
+}
