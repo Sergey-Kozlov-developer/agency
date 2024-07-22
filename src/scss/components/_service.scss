@@ -1,0 +1,41 @@
+.manager {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.service {
+	margin-top: 141px;
+}
+
+.service-list {
+	display: grid;
+	place-items: center center;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 0 auto;
+
+	// height: 200px;
+}
+
+.list {
+	border: 1px solid $table-border-color;
+	padding-left: rem(40px);
+}
+
+.list-img {
+	margin-top: 10px;
+	width: 80px;
+	height: 80px;
+}
+
+.list-title {
+	margin-top: 10px;
+	font-weight: 800;
+	color: $text-dark;
+}
+
+.list-subtitle {
+	margin-top: 10px;
+	color: $text-dark-description;
+}
