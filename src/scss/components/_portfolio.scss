@@ -1,8 +1,7 @@
 .portfolio {
-	min-height: 100vh;
-	background-color: $bg-head-color;
 	padding-top: rem(60px);
 }
+
 .portfolio-block {
 	align-items: center;
 	text-align: center;
@@ -10,27 +9,32 @@
 
 .portfolio-categories {
 	@include flex-all-center;
+
+	margin-bottom: 40px;
 	gap: 20px;
 }
 
 .categories {
-	cursor: pointer;
 	color: $text-light-gray-color;
+	cursor: pointer;
 }
+
 .active {
 	color: $light-color;
 }
+
 .porfolio-image {
-	display: grid;
-	// place-items: center center;
-	// grid-template-columns: repeat(2, 1fr);
-	margin: 0 auto;
-	height: 200px;
-	margin-bottom: rem(60px);
+	padding-bottom: rem(60px);
 }
+
 .image-top {
-	margin: 0 auto;
+	// margin: 0 auto;
+	@include flex-all-sb;
+
+	padding-bottom: 30px;
 }
+
 .image-botoom {
-	margin: 0 auto;
+	// margin: 0 auto;
+	@include flex-all-sb;
 }
