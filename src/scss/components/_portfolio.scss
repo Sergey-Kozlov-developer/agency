@@ -34,7 +34,31 @@
 	padding-bottom: 30px;
 }
 
-.image-botoom {
-	// margin: 0 auto;
-	@include flex-all-sb;
+.image-wrapper {
+	position: relative;
+	margin-right: 20px;
+}
+
+.image-wrapper img {
+	display: block;
+	width: 100%;
+}
+
+.btn-portfolio {
+	position: absolute;
+	left: 10%;
+	top: 70%;
+	border: none;
+	border-radius: 19px;
+	padding: 5px 16px;
+	text-transform: none;
+	color: $text-dark;
+	background: $light-color;
+}
+
+.block-title {
+	position: absolute;
+	left: 10%;
+	top: 70%;
+	color: $light-color;
 }
