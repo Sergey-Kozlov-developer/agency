@@ -36,3 +36,30 @@
 	justify-content: space-between;
 	gap: 20px;
 }
+// Основные стили для бургер-меню
+.burger {
+	@include burger; // использование вашего миксина для бургер-меню
+}
+
+// Скрытие бургер-меню на экранах больше 768px
+@media (min-width: 768px) {
+	.burger {
+		display: none; // Скрыть бургер-меню
+	}
+
+	.nav-list {
+		display: flex; // Отобразить меню как flex для планшетов и ПК
+	}
+}
+
+// Отображение бургер-меню и скрытие nav-list для мобильных устройств
+@media (max-width: 767px) {
+	.nav-list {
+		display: none; // Скрыть nav-list
+	}
+
+	.menu--active {
+		display: flex; // Показывать меню, когда активен бургер
+		flex-direction: column; // Или как вам нужно
+	}
+}
