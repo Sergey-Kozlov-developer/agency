@@ -4,8 +4,8 @@
 	margin-top: rem(100px);
 
 	@include small-mobile {
-		margin-top: rem(20px);
 		flex-direction: column;
+		margin-top: rem(20px);
 	}
 }
 
@@ -79,8 +79,9 @@
 	}
 
 	@include small-mobile {
-		width: auto;
 		margin: 0 auto;
+		width: auto;
+
 		&_subtitle {
 			/* H2 */
 			font-size: rem(48px);

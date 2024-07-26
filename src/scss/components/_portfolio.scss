@@ -32,6 +32,7 @@
 
 .porfolio-image {
 	padding-bottom: rem(60px);
+
 	// @include small-mobile {
 	// 	display: grid;
 	// 	place-items: center center;
@@ -69,6 +70,7 @@
 .image-wrapper img {
 	display: block;
 	width: 100%;
+
 	@include small-mobile {
 		// width: auto;
 		height: 100vh;
