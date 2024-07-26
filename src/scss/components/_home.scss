@@ -1,13 +1,26 @@
 .home {
 	margin-top: 118px;
+
+	@include small-mobile {
+		margin-top: 40px;
+	}
 }
 
 .home-section {
 	@include flex-all-sb;
+
+	@include small-mobile {
+		flex-direction: column-reverse;
+		width: auto;
+	}
 }
 
 .home-left {
 	position: relative;
+
+	@include small-mobile {
+		width: -webkit-fill-available;
+	}
 }
 
 .studio-name {
@@ -25,6 +38,11 @@
 	letter-spacing: -2px;
 	text-align: left;
 	color: $light-color;
+
+	@include small-mobile {
+		width: -webkit-fill-available;
+		font-size: rem(56px);
+	}
 }
 
 .text {
@@ -38,6 +56,10 @@
 	/* Text */
 
 	color: $text-light-gray-color;
+
+	@include small-mobile {
+		width: -webkit-fill-available;
+	}
 }
 
 .home-button {
@@ -70,4 +92,8 @@
 
 .home-right {
 	width: 575px;
+
+	@include small-mobile {
+		width: auto;
+	}
 }

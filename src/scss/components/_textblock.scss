@@ -2,6 +2,11 @@
 	@include flex-all-sb;
 
 	margin-top: rem(100px);
+
+	@include small-mobile {
+		margin-top: rem(20px);
+		flex-direction: column;
+	}
 }
 
 .text-block {
@@ -71,5 +76,15 @@
 
 		/* Text */
 		color: $text-dark-description;
+	}
+
+	@include small-mobile {
+		width: auto;
+		margin: 0 auto;
+		&_subtitle {
+			/* H2 */
+			font-size: rem(48px);
+			line-height: 1.1;
+		}
 	}
 }

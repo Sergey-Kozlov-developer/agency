@@ -4,4 +4,9 @@
 	grid-template-columns: repeat(5, 1fr);
 	margin: 0 auto;
 	height: 200px;
+
+	@include small-mobile {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+	}
 }

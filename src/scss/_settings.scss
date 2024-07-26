@@ -42,6 +42,12 @@
 	background: $bg-head-color;
 }
 
+.nav-btn {
+	@include small-mobile {
+		display: none;
+	}
+}
+
 .btn-orange {
 	background-color: $accent-color;
 }

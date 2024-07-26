@@ -1,5 +1,8 @@
 .how-work {
 	margin-bottom: 108px;
+	@include small-mobile {
+		margin-bottom: 60px;
+	}
 }
 
 .work-text {
@@ -8,6 +11,11 @@
 	margin-top: 120px;
 	width: 444px;
 	gap: 40px;
+
+	@include small-mobile {
+		margin-top: 60px;
+		width: auto;
+	}
 }
 
 .work-title {

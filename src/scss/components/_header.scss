@@ -28,6 +28,11 @@
 
 		/* Убираем маркеры */
 	}
+	@include small-mobile {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 15px;
+	}
 }
 
 .nav-list {
@@ -60,6 +65,11 @@
 
 	.menu--active {
 		display: flex; // Показывать меню, когда активен бургер
-		flex-direction: column; // Или как вам нужно
+		flex-direction: row; // Или как вам нужно
 	}
+}
+.wrapper-btn {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }

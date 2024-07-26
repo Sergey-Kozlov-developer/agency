@@ -2,29 +2,31 @@
 	<div class="container">
 		<div class="nav">
 			<img src="../img/logo/logo.png" alt="" />
-			<button
-				class="btn-reset burger"
-				aria-label="Открыть меню"
-				aria-expanded="false"
-				data-burger
-			>
-				<span class="burger__line"></span>
-			</button>
-			<ul class="nav-list" data-menu>
-				<li data-menu-item>
-					<a href="#!">About</a>
-				</li>
-				<li data-menu-item>
-					<a href="#!">Services</a>
-				</li>
-				<li data-menu-item>
-					<a href="#!">Pricing</a>
-				</li>
-				<li data-menu-item>
-					<a href="#!">Blog</a>
-				</li>
-			</ul>
-			<button class="btn">Contact</button>
+			<div class="wrapper-btn">
+				<button
+					class="btn-reset burger"
+					aria-label="Открыть меню"
+					aria-expanded="false"
+					data-burger
+				>
+					<span class="burger__line"></span>
+				</button>
+				<ul class="nav-list" data-menu>
+					<li data-menu-item>
+						<a href="#!">About</a>
+					</li>
+					<li data-menu-item>
+						<a href="#!">Services</a>
+					</li>
+					<li data-menu-item>
+						<a href="#!">Pricing</a>
+					</li>
+					<li data-menu-item>
+						<a href="#!">Blog</a>
+					</li>
+				</ul>
+			</div>
+			<button class="btn nav-btn">Contact</button>
 		</div>
 		@include('home.html')
 	</div>

@@ -12,6 +12,13 @@
 
 	margin-bottom: 40px;
 	gap: 20px;
+
+	@include small-mobile {
+		display: grid;
+		place-items: center center;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+	}
 }
 
 .categories {
@@ -25,6 +32,12 @@
 
 .porfolio-image {
 	padding-bottom: rem(60px);
+	// @include small-mobile {
+	// 	display: grid;
+	// 	place-items: center center;
+	// 	grid-template-columns: repeat(2, 1fr);
+	// 	grid-template-rows: repeat(3, 1fr);
+	// }
 }
 
 .image-top {
@@ -32,16 +45,34 @@
 	@include flex-all-sb;
 
 	padding-bottom: 30px;
+
+	@include small-mobile {
+		// margin: 0 auto;
+		display: grid;
+		place-items: center center;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+	}
 }
 
 .image-wrapper {
 	position: relative;
 	margin-right: 20px;
+
+	@include small-mobile {
+		// width: auto;
+		margin: 0 auto;
+		padding-bottom: 20px;
+	}
 }
 
 .image-wrapper img {
 	display: block;
 	width: 100%;
+	@include small-mobile {
+		// width: auto;
+		height: 100vh;
+	}
 }
 
 .btn-portfolio {

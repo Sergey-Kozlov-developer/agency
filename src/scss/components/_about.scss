@@ -1,15 +1,29 @@
-.wrapper-block {
+.wrapper-about {
 	@include flex-all-sb;
 
 	margin-top: rem(100px);
+
+	@include small-mobile {
+		flex-direction: column;
+		margin-top: rem(40px);
+	}
 }
 
 .about-image {
 	width: 566px;
+	@include small-mobile {
+		// flex-direction: column;
+		width: auto;
+		// margin-top: 10px;
+	}
 }
 
 .about-realisation {
-	margin-top: 160px;
+	margin-top: rem(160px);
+
+	@include small-mobile {
+		margin-top: rem(60px);
+	}
 }
 
 .table {
@@ -27,6 +41,12 @@
 	&_text {
 		font-weight: 400;
 		font-size: rem(20px);
+	}
+
+	@include small-mobile {
+		flex-direction: column;
+		border-left: 1px solid $table-border-color;
+		border-right: 1px solid $table-border-color;
 	}
 }
 
